@@ -1,0 +1,2 @@
+CREATE USER repli WITH REPLICATION ENCRYPTED PASSWORD 'password';
+SELECT pg_reload_conf();
